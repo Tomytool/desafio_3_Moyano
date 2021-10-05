@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tercer desafio JS</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="#fibonacci">Fibonacci</a></li>
+        <li><a href="#impar">Buscar Impares</a></li>
+        <li><a href="#factorial">Factorial</a></li>
+      </ul>
+    </nav>
+    <section id="fibonacci" class="opcion1">
+      <h2>Aqui podemos encontrar el Número n de Fibonacci</h2>
+      <h3>Los resultados se mostraran por consola</h3>
+      <p>
+        La sucesión de Fibonacci, en ocasiones también conocida como secuencia
+        de Fibonacci o incorrectamente como serie de Fibonacci, es en sí una
+        sucesión matemática infinita. Consta de una serie de números naturales
+        que se suman de a 2, a partir de 0 y 1. Básicamente, la sucesión de
+        Fibonacci se realiza sumando siempre los últimos 2 números (Todos los
+        números presentes en la sucesión se llaman números de Fibonacci) de la
+        siguiente manera:
+      </p>
+      <p>0+1+1+2+3+5+8+13...</p>
+      <button onclick="opcionFibonacci()">Calcular</button>
+    </section>
+    <section id="impar" class="opcion2">
+      <h2>Aquí podemos encontrar los Números impares</h2>
+      <h3>Los resultados se mostraran por consola</h3>
+      <p>
+        Un <strong>número</strong> es <strong>impar</strong> si es no es
+        múltiplo de dos.
+      </p>
+      <p>
+        <strong>Número impar = 2 · n − 1</strong>.
+        <span style="margin-left: 10%">n es cualquier número entero.</span>
+      </p>
+      <p>
+        <strong>Número impar = 2 · n + 1</strong>.
+        <span style="margin-left: 10%">n es cualquier número entero.</span>
+      </p>
+      <p>
+        Los <strong>números impares</strong> terminan en
+        <strong>1, 3, 5, 7, 9</strong>.
+      </p>
+      <h2>Propiedades de los números impares</h2>
+      <p>
+        La suma de un <strong>número par e impar</strong> es un
+        <strong>número impar</strong>.
+      </p>
+      <p>
+        La suma de dos <strong>números impares</strong> es un
+        <strong>número par</strong>.
+      </p>
+      <button onclick="impares()">Calcular</button>
+    </section>
+    <section id="factorial" class="opcion3">
+      <h2>Aqui podra calcular el Factorial de un Número X</h2>
+      <h3>Los resultados se mostraran por consola</h3>
+      <p>
+        El factorial de un número <u>entero positivo</u> se define como el
+        producto de todos los números naturales anteriores o iguales a él.<br />
+        Se escribe n!, y se lee "n factorial". (Por definición el factorial de 0
+        es 1: 0!=1)
+      </p>
+      <p>Por ejemplo, 5! = 5.4.3.2.1 = 120</p>
+      <button onclick="factorial()">Calcular</button>
+    </section>
+    <footer class="footer">
+      <h3>Visita mi repositorio</h3>
+      <a href=""><img src="brandico_github.svg" alt="" /></a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

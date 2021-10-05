@@ -1,0 +1,11 @@
+{
+  "name": "desafio_3_moyano",
+  "version": "1.0.0",
+  "description": "tercer desafio de JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomas Moyano",
+  "license": "ISC"
+}
