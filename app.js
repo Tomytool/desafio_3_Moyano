@@ -5,7 +5,10 @@ function opcionFibonacci() {
   const calculoFibonacci = parseInt(
     prompt('ingrese el numero Fibonacci a Calcular:')
   );
-
+if (calculoFibonacci < 1) {
+  alert('Debe ingresar un número mayor a 1');
+  break;
+}
   for (let index = 3; index < calculoFibonacci; index++) {
     resultadoFibonacci = fibonacci1 + fibonacci2;
     fibonacci1 = fibonacci2;
@@ -16,6 +19,10 @@ function opcionFibonacci() {
 
 function impares() {
   const calculoImpares = parseInt(prompt('Ingrese un numero del 1 al 100: '));
+  if (calculoImpares < 1) {
+    alert('Debe ingresar un número mayor o igual a 1');
+    break;
+  }
   for (let index = 1; index <= calculoImpares; index++) {
     if (index % 2 != 0) {
       console.log(index);
